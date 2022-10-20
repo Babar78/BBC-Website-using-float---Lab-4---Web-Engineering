@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lab4.css" />
+    <title>Lab 4 - Web Engineering</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <nav class="nav-container">
+        <div class="nav-c1">
+          <div class="bbc-logo">
+            <img src="images/logo.png" alt="BBC LOGO" />
+          </div>
+          <div class="sign-in">
+            <div class="signin-icon">
+              <img src="images/personicon.png" alt="person-icon" />
+            </div>
+            <div class="signin-text">
+              <p>Sign in</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav-c2">
+          <ul class="nav-tabs">
+            <li>Home</li>
+            <li>News</li>
+            <li>Sport</li>
+            <li>Reel</li>
+            <li>Worklife</li>
+            <li>Travel</li>
+            <li>Future</li>
+            <li>Culture</li>
+            <li>. . .</li>
+          </ul>
+        </div>
+        <div class="nav-c3">
+          <input type="text" placeholder="Search BBC" id="input" />
+          <img
+            src="images/search-icon.png"
+            alt="input icon"
+            class="input_img"
+          />
+        </div>
+      </nav>
+    </div>
+    <!-- Head Text -->
+    <div class="date-container">
+      <h2>Trusted Journalist from the BBC</h2>
+      <p>Sunday, 9 October</p>
+    </div>
+    <!-- Main Highlights -->
+    <div class="highlight">
+      <div class="big-h">
+        <div class="h-img">
+          <img
+            src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/585E/production/_127022622_b0f093a4-8722-4698-8e39-d51eaf607957.jpg"
+            alt="news"
+          />
+        </div>
+        <div class="h-text">
+          <p class="media__title">
+            <a
+              class="media__link"
+              href="/news/world-europe-63190844"
+              rev="hero1|headline"
+            >
+              'Russian attack' on city claimed by Moscow kills 17
+            </a>
+          </p>
+          <p class="media__summary">
+            Zaporizhzhia is controlled by Ukraine but is in a region illegally
+            annexed by Russia.
+          </p>
+          <div class="media__tag">
+            <div class="media__line"></div>
+            <a
+              class="media__location tag tag--news"
+              href="/news/world/europe"
+              rev="hero1|source"
+              >Europe</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="small-h">
+        <div class="small-h-grid">
+          <div class="h-img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/C05A/production/_127024294_151232f9-aa80-4523-87fa-07feffe2ee52.jpg"
+              alt="news"
+            />
+          </div>
+          <div class="s1-text">
+            <p class="media__summary">
+              Members of security forces killed in Iran protests
+            </p>
+            <div class="media__tag">
+              <div class="media__line_b"></div>
+              <a
+                class="media__location tag tag--news"
+                href="/news/world/europe"
+                rev="hero1|source"
+                >Middle East</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="small-h-grid">
+          <div class="h-img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/35FD/production/_127012831_whatsappimage2022-10-07at16.49.11.jpg"
+              alt="news"
+            />
+          </div>
+          <div class="s2-text">
+            <p class="media__summary">
+              Gambia police probe deaths linked to Indian syrup
+            </p>
+            <div class="media__tag">
+              <div class="media__line_b"></div>
+              <a
+                class="media__location tag tag--news"
+                href="/news/world/europe"
+                rev="hero1|source"
+                >Africa</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="small-h-grid">
+          <div class="h-img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/304/ibroadcast/images/live/p0/d5/fg/p0d5fg1t.jpg"
+              alt="news"
+            />
+          </div>
+          <div class="s3-text">
+            <p class="media__summary">A new mission to see Titanic</p>
+            <div class="media__tag">
+              <div class="media__line_g"></div>
+              <a
+                class="media__location tag tag--news"
+                href="/news/world/europe"
+                rev="hero1|source"
+                >Travel</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="small-h-grid">
+          <div class="h-img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/8FD6/production/_127022863_gettyimages-1431913563.jpg"
+              alt="news"
+            />
+          </div>
+          <div class="s4-text">
+            <p class="media__summary">
+              Verstappen seals title amid confusion after Japan win
+            </p>
+            <div class="media__tag">
+              <div class="media__line_y"></div>
+              <a
+                class="media__location tag tag--news"
+                href="/news/world/europe"
+                rev="hero1|source"
+                >Formula 1</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NEWS Section -->
+    <div class="news">
+      <div class="heading">
+        <div class="heading__tag">
+          <div class="heading__line"></div>
+          <a class="heading__text" href="https://www.bbc.com/news">News</a>
+        </div>
+      </div>
+      <div class="news_data">
+        <div class="news1">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/15F2E/production/_127020998_04_colorinfrared_closeupviewofdamagedbridgeandrailcarsonfire_crimeabridge_08oct2022_wv3copy.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="/news/world-europe-63189627"
+                  rev="news|headline"
+                >
+                  Russia ramps up security after Crimea bridge blast
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                Moscow moves to secure the key crossing and repair it as soon as
+                possible after the explosion.
+              </p>
+              <div class="news__tag">
+                <div class="news__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Europe</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news2">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/14EDA/production/_127022758_gettyimages-1242278555.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="/news/world-europe-63189627"
+                  rev="news|headline"
+                >
+                  Three killed in Poland as wave capsizes tourist boat
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                Officials think a wave from a nearby tug boat turned over the
+                barge in a river in Gdansk.
+              </p>
+
+              <div class="news__tag">
+                <div class="news__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >World</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news3">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/131A2/production/_127024287_e8752289-f992-42dd-849f-062562a09c07.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="/news/world-europe-63189627"
+                  rev="news|headline"
+                >
+                  Large fire erupts at Islamabad shopping mall
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                A blaze breaks out at the Centaurus Mall in the Pakistani
+                capital but no casualties are reported.
+              </p>
+
+              <div class="news__tag">
+                <div class="news__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Asia</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SPORT Section -->
+    <div class="news">
+      <div class="heading">
+        <div class="heading__tag">
+          <div class="s-heading__line"></div>
+          <a
+            class="heading__text"
+            href="https://www.bbc.com/sport/cricket/63193426"
+            >Sport</a
+          >
+        </div>
+      </div>
+      <div class="news_data">
+        <div class="news1">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/111EA/production/_127022107_managers_getty.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="/news/world-europe-63189627"
+                  rev="news|headline"
+                >
+                  England drawn with Italy in Euro 2024 qualifying
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                England are drawn in the same group as Italy - the team that
+                beat them in the Euro 2020 final - in qualifying for Euro 2024
+                in Germany.
+              </p>
+              <div class="news__tag">
+                <div class="sports__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Sport</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news2">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/6E52/production/_127024282_buttler2.png"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="https://www.bbc.com/sport/cricket/63193426"
+                  rev="news|headline"
+                >
+                  Diplomatic Buttler decides against 'risky' appeal
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                England captain Jos Buttler explains why he decided not to
+                appeal for obstructing the field against Matthew Wade.
+              </p>
+
+              <div class="news__tag">
+                <div class="sports__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Cricket</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news3">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/760E/production/_127022203_cdf_091022_ge_wales_v_scotland_070.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="https://www.bbc.com/sport/cricket/63193426"
+                  rev="news|headline"
+                >
+                  Bevan kick seals dramatic Wales win over Scotland
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                Wales' Keira Bevan kicks an 84th-minute penalty to clinch a
+                thrilling 18-15 win against Scotland in their World Cup opener.
+              </p>
+
+              <div class="news__tag">
+                <div class="sports__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Rugby Union</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WEEKEND READS Section -->
+    <div class="news">
+      <div class="heading">
+        <div class="heading__tag">
+          <div class="w-heading__line"></div>
+          <a
+            class="heading__text"
+            href="https://www.bbc.com/sport/cricket/63193426"
+            >Weekend Reads</a
+          >
+        </div>
+      </div>
+      <div class="news_data">
+        <div class="news1">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/ibroadcast/images/live/p0/d5/6g/p0d56g7q.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="/news/world-europe-63189627"
+                  rev="news|headline"
+                >
+                  The Japanese plant impossible to kill
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                Japanese knotweed was once the darling of gardeners - now it has
+                to go.
+              </p>
+              <div class="news__tag">
+                <div class="b__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Future</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news2">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/ibroadcast/images/live/p0/d4/t6/p0d4t6tb.jpg"
+              alt="news img"
+              class="wr_img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="https://www.bbc.co.uk/future/future-planet"
+                  rev="news|headline"
+                >
+                  The vast impact of endless green energy
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                An inexhaustible supply of renewables would transform the world
+              </p>
+
+              <div class="news__tag">
+                <div class="w__line"></div>
+                <a
+                  class="news__location"
+                  href="https://www.bbc.co.uk/future/future-planet"
+                  rev="news|source"
+                  >Future Planet</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news3">
+          <div class="n_img">
+            <img
+              src="https://ichef.bbc.co.uk/wwhp/624/ibroadcast/images/live/p0/d4/rv/p0d4rvms.jpg"
+              alt="news img"
+            />
+          </div>
+          <div class="n_text">
+            <div class="news__content">
+              <h3 class="news__title">
+                <a
+                  class="news__link"
+                  href="https://www.bbc.com/travel/article/20221005-the-wagyu-olympics-the-quest-for-the-worlds-best-beef"
+                  rev="news|headline"
+                >
+                  Is this the world's best beef?
+                </a>
+              </h3>
+
+              <p class="news__summary">
+                In Japan, achieving steak perfection is more about the journey
+                than the goal
+              </p>
+
+              <div class="news__tag">
+                <div class="g__line"></div>
+                <a
+                  class="news__location"
+                  href="/news/world/europe"
+                  rev="news|source"
+                  >Travel</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both"></div>
+    </div>
+    <!-- FUTURE PLANET Section -->
+    <div class="planet">
+      <div class="p_heading">
+        <a href="https://www.bbc.com/future/future-planet">
+          <div class="p_name">
+            <h2>Future Planet</h2>
+          </div>
+        </a>
+      </div>
+      <div class="sub_head">
+        <p>Solutions for a sustainable world</p>
+      </div>
+      <div class="planet_news">
+        <div class="p_news p_news1">
+          <div class="p_img">
+            <img
+              src="https://ychef.files.bbci.co.uk/624_351/p0d1nww7.jpg"
+              alt="planet news"
+            />
+          </div>
+          <div class="p_text">
+            <h3>India's sustainable cooling solution</h3>
+          </div>
+        </div>
+        <div class="p_news p_news2">
+          <div class="p_img">
+            <img
+              src="https://ychef.files.bbci.co.uk/624_351/p0cx83wm.jpg"
+              alt="planet news"
+            />
+          </div>
+          <div class="p_text">
+            <h3>The ignored potential of human poo</h3>
+          </div>
+        </div>
+        <div class="p_news p_news3">
+          <div class="p_img">
+            <img
+              src="https://ychef.files.bbci.co.uk/624_351/p0d1xyd2.jpg"
+              alt="planet news"
+            />
+          </div>
+          <div class="p_text">
+            <h3>Will Venice succumb to the sea?</h3>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both"></div>
+    </div>
+    <!-- FOOTER Section -->
+    <div class="footer">
+      <div class="f_text">
+        <h3>Copyright &#169; 2022 BBC.</h3>
+        <p>
+          The BBC is not responsible for the content of external sites.
+          <span class="orb-footer-links"
+            ><a
+              href="https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links"
+              class="orb-hilight"
+              >Read about our approach to external linking.</a
+            ></span
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

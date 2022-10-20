@@ -1,0 +1,397 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* ---Nav Bar--- */
+.nav-container {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+}
+.nav-c1 {
+  display: flex;
+  margin: 20px 0;
+  width: 20%;
+}
+.sign-in {
+  display: flex;
+  margin-left: 20px;
+}
+.signin-text {
+  text-align: bottom;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-c2 {
+  margin-left: 30px;
+  position: relative;
+  margin-top: 25px;
+  width: 60%;
+}
+ul {
+  overflow: hidden;
+}
+li {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-c2 li {
+  margin-left: 30px;
+}
+.nav-c3 {
+  margin-left: 30px;
+  margin: 20px 0;
+}
+
+/* Logo + Sign in */
+.bbc-logo img {
+  float: left;
+  width: 100px;
+  height: 40px;
+}
+.sign-in img {
+  width: 30px;
+}
+/* Search Bar */
+.input_container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+input {
+  width: 223.996px;
+  height: 39.992px;
+  margin: 0;
+  padding-left: 40px;
+  background-color: #3a3c3e;
+  color: white;
+}
+::placeholder {
+  color: white;
+  font-size: medium;
+}
+
+.input_img {
+  position: absolute;
+  right: 255px;
+  top: 32px;
+  width: 15px;
+  height: 15px;
+}
+
+/* Date Container */
+.date-container {
+  height: 60px;
+  width: 90%;
+  margin: 0 5%;
+  display: block;
+  padding-top: 30px;
+}
+.date-container h2 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: grey;
+}
+.date-container p {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: grey;
+}
+
+/* Highlights */
+.highlight {
+  padding-top: 10px;
+  padding: 0 5%;
+  width: 100%;
+}
+.highlight a {
+  text-decoration: none;
+  color: white;
+}
+.big-h {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.small-h {
+  position: relative;
+  width: 50%;
+  float: left;
+  padding-left: 2px;
+}
+.big-h .h-text {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  padding: 10px 10px;
+  width: 80%;
+}
+.s1-text,
+.s2-text {
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  padding: 10px 10px;
+  width: 50%;
+}
+.s3-text,
+.s4-text {
+  color: white;
+  position: absolute;
+  bottom: 2%;
+  padding: 10px 10px;
+  width: 50%;
+}
+
+.small-h-grid {
+  float: left;
+  width: 50%;
+}
+.media__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.media__summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.media__tag {
+  float: left;
+  text-transform: uppercase;
+}
+.media__line {
+  border-left: 3px solid red;
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.media__line_b {
+  border-left: 2px solid rgb(21, 121, 245);
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.media__line_g {
+  border-left: 2px solid rgb(159, 229, 54);
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.media__line_y {
+  border-left: 2px solid yellow;
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.media__location {
+  margin-left: 5px;
+}
+/* NEWS Section */
+.news {
+  clear: both;
+  padding: 3% 5%;
+}
+.heading__line {
+  border-left: 4px solid red;
+  float: left;
+  height: 24px;
+}
+
+.heading__text {
+  margin-left: 10px;
+  color: black;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.news_data {
+  width: 100%;
+}
+.news__content {
+  float: left;
+}
+.n_img img {
+  width: 100%;
+  max-height: 230px;
+}
+.news1 img {
+  padding-right: 5px;
+}
+.news2 img {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.news3 img {
+  padding-left: 5px;
+}
+.news1,
+.news2,
+.news3 {
+  float: left;
+  width: 33.33%;
+  margin-top: 20px;
+}
+
+.n_text a {
+  text-decoration: none;
+  color: black;
+}
+.n_text {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 95%;
+}
+.n_text h3 {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.news__tag {
+  float: left;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.news__line {
+  border-left: 2px solid red;
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.news__location {
+  margin-left: 5px;
+}
+
+/* SPORT Section */
+.sports__line {
+  border-left: 2px solid yellow;
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+
+.s-heading__line {
+  border-left: 4px solid yellow;
+  float: left;
+  height: 24px;
+}
+
+/* Weekend Reads */
+.w-heading__line {
+  border-left: 4px solid #47a1d8;
+  float: left;
+  height: 24px;
+}
+.w__line {
+  border-left: 2px solid #47a1d8;
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.b__line {
+  border-left: 2px solid black;
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+.g__line {
+  border-left: 2px solid rgb(159, 229, 54);
+  float: left;
+  height: 15px;
+  margin-top: 2%;
+}
+/* Future Planet */
+.planet {
+  width: 100%;
+  height: fit-content;
+  background-image: url("https://ychef.files.bbci.co.uk/976x549/p0836dcl.jpg");
+  padding: 40px 5%;
+}
+.p_heading h2 {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.p_name {
+  width: fit-content;
+  outline: 2px solid yellow;
+  padding: 10px;
+}
+.sub_head {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: medium;
+  margin-top: 10px;
+}
+
+.p_news {
+  width: 32.5%;
+  height: fit-content;
+  background-color: white;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.p_news1 {
+  margin-right: 5px;
+}
+.p_news2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.p_news3 {
+  margin-left: 5px;
+}
+.p_news img {
+  width: 100%;
+}
+.p_news .p_text {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  min-height: 50px;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+.f_text {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  color: white;
+  padding-bottom: 10px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
